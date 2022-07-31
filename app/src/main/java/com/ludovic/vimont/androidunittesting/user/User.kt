@@ -1,4 +1,4 @@
-package com.ludovic.vimont.androidunittesting
+package com.ludovic.vimont.androidunittesting.user
 
 data class User(
     val firstName: String,

@@ -1,5 +1,6 @@
 package com.ludovic.vimont.androidunittesting
 
+import com.ludovic.vimont.androidunittesting.user.User
 import kotlin.random.Random
 
 private const val STRING_LENGTH: Int = 20

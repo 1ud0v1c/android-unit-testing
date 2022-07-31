@@ -1,5 +1,7 @@
-package com.ludovic.vimont.androidunittesting
+package com.ludovic.vimont.androidunittesting.user
 
+import com.ludovic.vimont.androidunittesting.nextString
+import com.ludovic.vimont.androidunittesting.nextUser
 import org.junit.Assert
 import org.junit.Test
 import kotlin.random.Random

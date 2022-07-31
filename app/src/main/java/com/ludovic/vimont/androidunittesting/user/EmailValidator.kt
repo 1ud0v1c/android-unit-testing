@@ -1,4 +1,4 @@
-package com.ludovic.vimont.androidunittesting
+package com.ludovic.vimont.androidunittesting.user
 
 class EmailValidator {
     private companion object {
