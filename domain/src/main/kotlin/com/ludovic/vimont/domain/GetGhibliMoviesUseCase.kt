@@ -5,7 +5,7 @@ import com.ludovic.vimont.domain.model.Movie
 class GetGhibliMoviesUseCase(
     private val ghibliRepository: GhibliRepository,
 ) {
-    suspend fun execute(): Result<List<Movie>> {
+    suspend operator fun invoke(): Result<List<Movie>> {
         return ghibliRepository.getMovies()
     }
 }
