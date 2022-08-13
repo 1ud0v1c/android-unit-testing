@@ -5,6 +5,7 @@ pluginManagement {
         mavenCentral()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -15,6 +16,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidUnitTesting"
 
-include ':app'
-include ':data'
-include ':domain'
+include(
+    ":app",
+    ":data",
+    ":domain",
+)
