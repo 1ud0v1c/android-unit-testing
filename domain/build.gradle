@@ -1,9 +1,9 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm'
+    alias libs.plugins.kotlin.jvm
 }
 
 dependencies {
-    testImplementation "junit:junit:4.13.2"
-    testImplementation "io.mockk:mockk:1.12.4"
-    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4"
+    testImplementation libs.junit
+    testImplementation libs.kotlinx.test.coroutines
+    testImplementation libs.mockk
 }
