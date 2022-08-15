@@ -6,6 +6,8 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+apply<RemoteConfigPlugin>()
+
 android {
     compileSdk = 32
 
@@ -33,6 +35,7 @@ dependencies {
     implementation(libs.android.constraintlayout)
 
     testImplementation(libs.junit)
+    testImplementation(libs.kotlin.reflect)
 
     androidTestImplementation(libs.android.test.junit)
     androidTestImplementation(libs.android.test.espresso)
